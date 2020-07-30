@@ -1,0 +1,14 @@
+--Install--
+lxml
+pyqt5
+pyqt5-tools
+pillow
+bs4
+pyquery
+requests
+pip install git+https://github.com/Baidu-AIP/python-sdk.git@master
+
+
+--Build exe--
+pip install pyinstaller
+pyinstaller -F -w AVDC_Main.py
